@@ -1,0 +1,29 @@
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secret.properties
+
+# Java / Maven
+**/target/
+*.class
+
+# React / Node
+**/node_modules/
+**/dist/
+**/build/
+npm-debug.log*
+
+# IDE and operating system
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local logs
+*.log
+startup-log.txt
+startup-debug.txt
